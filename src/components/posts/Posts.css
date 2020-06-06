@@ -1,0 +1,39 @@
+#posts .title{
+    width:100%;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#posts .image-input{
+    margin-bottom: 20px;
+}
+
+#posts .unselected-tag{
+  border: 0.5px solid #000000;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#posts .selected-tag{
+  background-color: #ff0000;
+  border:0.5px solid #ff0000;
+  color:#ffffff;    
+  width: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#posts .btn{
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 5px;
+  font-weight: bold;
+}
